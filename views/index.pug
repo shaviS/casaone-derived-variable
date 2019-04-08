@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  form(action='http://localhost:3000/updateDerivedProductInformation', method='post')
+    div
+      label(for='say') Product Id
+      input#say(name='productId', value='', style='margin-left : 15px')
+    div
+      label(for='to') timeToAssemble
+      input#to(name='timeToAssemble', value='', style='margin-left : 15px', type = 'number')
+    div(style='margin-top : 15px')
+      button Update Derived Attribute
+
