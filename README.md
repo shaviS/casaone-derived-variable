@@ -41,5 +41,5 @@
 - Visit - [http://localhost:3000/derivedProductInformation](http://localhost:3000/derivedProductInformation) to view list of products. Use JSON viewer for pretty display. Below is a sample product data.  productId._id is the product id.
   - {&quot;\_id&quot;:&quot;5cab65a76c286c411fe2ffcf&quot;,&quot;timeToAssemble&quot;:100,&quot;secondaryAttribute1&quot;:&quot;secondaryAttribute11&quot;,&quot;secondaryAttribute2&quot;:11,&quot;productId&quot;:{&quot;\_id&quot;:&quot;5cab65a66c286c411fe2ffc5&quot;,&quot;title&quot;:&quot;title1&quot;,&quot;description&quot;:&quot;description1&quot;,&quot;price&quot;:101,&quot;\_\_v&quot;:0},&quot;\_\_v&quot;:0}
 
-- Visit -  [http://localhost:3000](http://localhost:3000/derivedProductInformation) Fill the form with the correct productId and submit it with the new value.
+- Visit -  [http://localhost:3000](http://localhost:3000/) Fill the form with the correct productId and submit it with the new value.
 - Again visit - [http://localhost:3000/derivedProductInformation](http://localhost:3000/derivedProductInformation) to see if the information has changed.
